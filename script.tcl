@@ -63,7 +63,7 @@ config_op -impl dsp mul
 config_op -impl dsp add
 config_op -impl dsp sub
 source "./TNN/sol1_T64_e768_H8_fix8_u55c/directives.tcl"
-csim_design
+#csim_design
 csynth_design
-cosim_design
-export_design -rtl verilog -format ip_catalog
+#cosim_design
+#export_design -rtl verilog -format ip_catalog
